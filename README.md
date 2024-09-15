@@ -14,23 +14,23 @@ The Domino's Predictive Purchase Order System is a time series forecasting proje
 
 ## Usage
 
-- **Data Preprocessing: Run preprocess.py to clean and preprocess the data.
-- **Exploratory Data Analysis (EDA): Execute eda.py to generate visualizations and insights.
-- **Sales Forecasting: Train and evaluate models by running forecasting.py.
-- **Purchase Order Generation: Generate the purchase order with generate_order.py.
-- **Results: Review the results in the generated reports and files.
+- Data Preprocessing: Run preprocess.py to clean and preprocess the data.
+- Exploratory Data Analysis (EDA): Execute eda.py to generate visualizations and insights.
+- Sales Forecasting: Train and evaluate models by running forecasting.py.
+- Purchase Order Generation: Generate the purchase order with generate_order.py.
+- Results: Review the results in the generated reports and files.
 
 ## Data
-- **The dataset includes historical sales data with timestamps. It should be placed in the data/ directory.
+- The dataset includes historical sales data with timestamps. It should be placed in the data/ directory.
 
 ## Modeling
-- **ARIMA/SARIMA: Implemented using statsmodels.
-- **Facebook Prophet: Used for handling seasonality and holidays.
-- **LSTM: A neural network model built with TensorFlow for capturing complex patterns.
+- ARIMA/SARIMA: Implemented using statsmodels.
+- Facebook Prophet: Used for handling seasonality and holidays.
+- LSTM: A neural network model built with TensorFlow for capturing complex patterns.
 
 ## Results
-- **The project generates:
-- **Preprocessed Dataset: Saved as cleaned_data.csv.
-- **EDA Report: Visualizations and insights in eda_report.html.
-- **Predictive Model: Saved models and evaluation metrics.
-- **Purchase Order: Ingredient quantities detailed in purchase_order.csv.
+- The project generates:
+- Preprocessed Dataset: Saved as cleaned_data.csv.
+- EDA Report: Visualizations and insights in eda_report.html.
+- Predictive Model: Saved models and evaluation metrics.
+- Purchase Order: Ingredient quantities detailed in purchase_order.csv.
